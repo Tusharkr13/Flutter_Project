@@ -15,6 +15,6 @@ class DetailActivity : AppCompatActivity() {
         webView.webViewClient = WebViewClient()
 
         val url = intent.getStringExtra("url")
-        webView.loadUrl(url ?: "https://newsapi.org")
+        webView.loadUrl(url ?: "https://newsapi.org/")
     }
 }
